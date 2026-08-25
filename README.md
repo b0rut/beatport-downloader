@@ -1,138 +1,126 @@
-# Beatport Downloader PRO
+# Beatport Downloader PRO: The Complete Lossless Audio Workstation for DJs
 
-[![Web App](https://img.shields.io/badge/Web_App-beatport--downloader.com-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beatport-downloader.com)
-[![Audio Formats](https://img.shields.io/badge/Audio-24--bit_FLAC_|_320k_MP3_|_WAV-10B981?style=for-the-badge)](https://beatport-downloader.com)
-[![DJ Software](https://img.shields.io/badge/DJ_Sync-Rekordbox_|_Serato_|_Traktor-06B6D4?style=for-the-badge)](https://beatport-downloader.com)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
+[![Launch Web App](https://img.shields.io/badge/Launch_Workstation-beatport--downloader.com-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://beatport-downloader.com)
+[![Audio Quality](https://img.shields.io/badge/Audio_Quality-24--Bit_Lossless_FLAC_|_320k_MP3-10B981?style=for-the-badge)](https://beatport-downloader.com)
+[![DJ Software Compatibility](https://img.shields.io/badge/DJ_Software-Rekordbox_|_Serato_|_Traktor-06B6D4?style=for-the-badge)](https://beatport-downloader.com)
 
-> A modern, high-performance music downloader and metadata processor for electronic music DJs and producers. Download tracks, full releases, and Top 100 charts in studio master 24-bit FLAC, uncompressed WAV, or 320kbps MP3 with pre-injected Camelot keys and Rekordbox-ready ID3 tags.
+Building a professional electronic music library track by track can consume hours of valuable preparation time. When preparing for festival stages, club residencies, or studio sessions, DJs need bit-perfect audio files, clean metadata, and zero acoustic compression artifacts.
 
----
-
-## Live Web Application
-
-Access the official zero-install web workstation directly in your browser:
-**[https://beatport-downloader.com](https://beatport-downloader.com)**
-
-- **Free Demo Tier:** 5 free 24-bit FLAC downloads every 24 hours (zero credit card or registration required).
-- **Pro Lifetime Tier:** Unlimited batch downloads, 100+ track playlist pagination, VIP high-speed stream servers, and multi-device portability for a single payment of €9.99.
+[Beatport Downloader PRO](https://beatport-downloader.com) is the premier zero-install web workstation engineered specifically for electronic music DJs. It allows you to batch download complete Beatport Top 100 charts, curated playlists, and carts directly in studio master 24-bit FLAC, uncompressed WAV, or 320kbps MP3 with automated Camelot keys and Rekordbox-ready ID3 tags.
 
 ---
 
-## Key Capabilities
+## ⚡ Launch the Live Workstation
 
-- **Bit-Perfect Lossless Audio:** Export tracks in studio master 24-bit / 44.1 kHz FLAC, 16-bit WAV, or broadcast-standard 320kbps CBR MP3.
-- **Harmonic Camelot Key Tagging:** Automatically injects verified alphanumeric Camelot keys (`1A` to `12B`) into standard ID3v2 `TKEY` frames. Eliminates acoustic analyzer guesswork in Rekordbox, Serato DJ Pro, and Traktor Pro.
-- **Floating-Point BPM Tagging:** Writes exact tempo values into `TBPM` headers to ensure instant beatgrid alignment without tempo drift.
-- **1-Click Batch Chart Export:** Paste any Beatport Top 100 chart, label discography, or cart URL to ingest and download entire tracklists in a single batch session.
-- **Client-Side Store-Mode ZIP Packaging:** Uses in-browser Web Streams to build zero-compression (Method 0) ZIP archives directly in RAM with zero CPU overhead.
-- **Universal Streaming Playlist Converter:** Ingests Spotify, Apple Music, Deezer, and SoundCloud playlists (up to 2,500 tracks) and resolves them into club-ready Beatport crates with full extended mix priority.
-- **High-Resolution Artwork Embedding:** Embeds uncompressed 1400x1400 HD album art into every audio file for crisp display on Pioneer CDJ-3000 and CDJ-2000NXS2 players.
+You can start using the workstation directly in your web browser with zero software installation required:
 
----
+👉 **[https://beatport-downloader.com](https://beatport-downloader.com)**
 
-## Audio Quality Comparison
-
-| Feature / Metric | 24-Bit Studio Master FLAC | 320kbps CBR MP3 | 16-Bit Studio WAV |
-| :--- | :--- | :--- | :--- |
-| **Bitrate** | Variable (1,411 to 2,304 kbps) | 320 kbps (Constant) | 1,411 kbps (Fixed PCM) |
-| **Frequency Response** | Full 20 Hz to 22.05 kHz | Cutoff Shelf at 20.5 kHz | Full 20 Hz to 22.05 kHz |
-| **High-Frequency Air** | Uncompressed Transients | Psychoacoustic Filtering | Uncompressed Transients |
-| **File Footprint** | ~45 MB to 70 MB / track | ~10 MB to 15 MB / track | ~50 MB to 80 MB / track |
-| **ID3 Tag Compatibility** | Native FLAC Vorbis / ID3v2 | Universal ID3v2.3 | Non-standard RIFF INFO |
-| **Recommended Use Case** | Mainstage & Club Sound Systems | Backup USB Flash Drives | Studio Archival Masters |
+- **Free Demo:** 5 free 24-bit FLAC downloads every 24 hours (no credit card or account needed).
+- **Pro Lifetime Tier:** Unlimited downloads, 100+ track playlist pagination, VIP high-speed servers, and multi-device portability for a single payment of €9.99.
 
 ---
 
-## Quickstart: How to Download Tracks in 3 Steps
+## 🚀 Key Capabilities Overview
+
+![Beatport Downloader PRO Batch Queue Workstation](https://beatport-downloader.com/beatport-downloader-batch-ui.png)
+*Figure 1: The Beatport Downloader PRO batch extraction workstation with automated ID3v2 metadata pre-processing.*
+
+### 1. Studio Master 24-Bit Lossless Audio
+Export tracks in pristine 24-bit / 44.1 kHz FLAC or uncompressed WAV audio containers. Lossless audio preserves full dynamic headroom and linear high-frequency transients up to the 22.05 kHz Nyquist limit, eliminating the harsh pre-echo and 20.5 kHz brickwall cutoffs found in compressed MP3s.
+
+![Lossless 24-bit FLAC Spectrogram Comparison](https://beatport-downloader.com/audio-frequency-spectrogram-comparison.png)
+*Figure 2: Fast Fourier Transform (FFT) spectrogram comparison between 24-bit FLAC master and 320kbps MP3.*
+
+### 2. Automatic Camelot Key Injection (1A to 12B)
+Never guess musical keys during live performances. The engine extracts the official record label musical key and automatically embeds the corresponding alphanumeric Camelot notation (`1A` to `12B`) into standard ID3 `TKEY` headers. Rekordbox, Serato DJ Pro, and Traktor Pro group and sort your harmonic crates instantly upon import.
+
+![Pioneer Rekordbox Collection with Camelot Keys](https://beatport-downloader.com/rekordbox-metadata-analysis-screen.png)
+*Figure 3: Pioneer Rekordbox collection displaying imported FLAC files with embedded Camelot keys and HD cover art.*
+
+### 3. 1-Click Batch Chart & Cart Ingestion
+Paste any Beatport Top 100 chart URL, genre playlist, or cart link to load all tracks into your active queue simultaneously. The multi-threaded cloud engine streams the tracks concurrently and packages them into a clean, store-mode ZIP archive directly in your browser RAM.
+
+### 4. Universal Streaming Playlist Converter
+Convert Spotify, Apple Music, Deezer, and SoundCloud playlists (up to 2,500 tracks) into club-ready Beatport crates with intelligent extended club mix prioritization.
+
+![Universal Streaming Playlist Ingestion Modal](https://beatport-downloader.com/universal-playlist-converter-ui.png)
+*Figure 4: Universal playlist converter modal resolving external streaming tracklists into verified Beatport releases.*
+
+### 5. Pioneer CDJ-3000 Hardware Compatibility
+Fully compatible with Pioneer CDJ-3000, CDJ-2000NXS2, CDJ-900NXS, and all modern standalone all-in-one DJ systems.
+
+![Pioneer CDJ-3000 Native Lossless FLAC Playback](https://beatport-downloader.com/pioneer-cdj-flac-playback.png)
+*Figure 5: Pioneer CDJ-3000 playing native 24-bit studio master FLAC audio with 0ms waveform latency.*
+
+---
+
+## 🛠️ Step-by-Step DJ Library Workflow
 
 ```
-Audio Extraction Pipeline:
+The Complete DJ Library Pipeline:
 ┌──────────────────────────────────────────────────────────┐
-│ 1. Ingest URL (Beatport Chart / Cart / Spotify Playlist) │
+│ 1. Ingest URL (Top 100 Chart / Cart / Spotify Playlist)  │
 └────────────────────────────┬─────────────────────────────┘
-                             │ Multi-Threaded Query
+                             │
                              ▼
 ┌──────────────────────────────────────────────────────────┐
-│ 2. Configure Format (24-bit FLAC / Camelot Key Tags)     │
+│ 2. Select Audio Profile (24-bit FLAC + Camelot Key Tags) │
 └────────────────────────────┬─────────────────────────────┘
-                             │ Parallel CDN Stream
+                             │
                              ▼
 ┌──────────────────────────────────────────────────────────┐
-│ 3. Export Store-Mode ZIP Archive -> Import to Rekordbox  │
+│ 3. Export ZIP Archive -> Drag & Drop into Rekordbox/USB  │
 └──────────────────────────────────────────────────────────┘
 ```
 
-1. **Paste URL:** Open [beatport-downloader.com/app](https://beatport-downloader.com/app) and paste your Beatport chart link, release URL, or Spotify playlist link into the search bar.
-2. **Select Audio Container:** Open the settings modal and choose **24-Bit Lossless FLAC** (or 320k MP3) and enable **Camelot Key Notation**.
-3. **Download Batch:** Click **Download All**. The workstation streams all tracks simultaneously and packages them into a clean `.zip` archive ready to drag and drop into your DJ software.
+1. **Step 1: Paste Your Target URL**  
+   Open [beatport-downloader.com/app](https://beatport-downloader.com/app) and paste your Beatport chart link, release URL, or Spotify playlist link into the search bar.
+2. **Step 2: Configure Audio Preferences**  
+   Open Audio Settings and choose **24-Bit Lossless FLAC** (or 320k MP3), select **Alphanumeric Camelot Key Scheme**, and enable **1400x1400 HD APIC Artwork**.
+3. **Step 3: Download and Export**  
+   Click **Download All**. The workstation downloads the tracks and generates a store-mode `.zip` file instantly. Extract the files and drag them directly into your Rekordbox playlists.
 
 ---
 
-## DJ Software and Hardware Compatibility
+## 🎧 Hardware USB Redundancy for Touring DJs
 
-Beatport Downloader PRO generates audio files tested and verified on industry-standard club equipment:
+Never rely on a single flash drive in the booth. When preparing USB media for CDJ players, follow the proven 3-USB touring redundancy architecture:
 
-- **Pioneer DJ:** Rekordbox 6 & 7 (Export Mode & Performance Mode), CDJ-3000, CDJ-2000NXS2, CDJ-900NXS, XDJ-XZ, XDJ-RX3, OPUS-QUAD.
-- **Serato:** Serato DJ Pro & Serato DJ Lite with instant crate ingestion.
-- **Native Instruments:** Traktor Pro 3 & Traktor Pro 4 with harmonic key matching.
-- **Denon DJ:** Engine DJ OS, SC6000 Prime, Prime 4+.
+![Triple USB Redundancy Architecture for Touring DJs](https://beatport-downloader.com/triple-usb-dj-touring-setup.png)
+*Figure 6: Triple-USB redundancy configuration for touring DJs and club performers.*
 
----
-
-## Technical Guides and Tutorials
-
-Explore in-depth engineering breakdowns and practical field guides from our audio specialists:
-
-1. **[How to Import Beatport Tracks into Rekordbox with Intact Camelot Keys](https://beatport-downloader.com/blog/how-to-import-beatport-tracks-rekordbox-serato-camelot-keys)**: Complete guide to ID3v2.3 tag injection and harmonic crate organization.
-2. **[FLAC vs. MP3 320kbps vs. WAV on Club Sound Systems](https://beatport-downloader.com/blog/flac-vs-mp3-320kbps-wav-club-soundsystems-guide)**: Acoustic analysis of frequency cutoffs and dynamic range on large festival sound systems.
-3. **[How to Format and Prepare USB Drives for Pioneer CDJs](https://beatport-downloader.com/blog/how-to-format-prepare-usb-for-pioneer-cdj-rekordbox)**: Eliminate E-8306 errors with FAT32/MBR formatting, 4K random read benchmarks, and the 3-USB touring redundancy kit.
-4. **[Convert Spotify, Apple Music & Deezer Playlists to Beatport](https://beatport-downloader.com/blog/convert-spotify-apple-music-deezer-playlist-to-beatport)**: Universal playlist bridging architecture with 100+ track auto-pagination.
-5. **[How to Batch Download Beatport Playlists and Charts in Lossless FLAC](https://beatport-downloader.com/blog/complete-step-by-step-guide-batch-download-beatport-playlists-flac)**: Step-by-step procedural tutorial on batch queue ingestion and store-mode ZIP packaging.
-6. **[How to Fix Missing Camelot Keys and BPM Tags in Rekordbox](https://beatport-downloader.com/blog/how-to-fix-rekordbox-missing-camelot-keys-bpm-beatport-downloads)**: Fix harmonic metadata errors and master lateral booth mixing rules.
-7. **[The Touring DJ Workstation Setup](https://beatport-downloader.com/blog/premium-dj-workstation-setup-unlimited-flac-downloads-offline-cdj-prep)**: Setup guide for lifetime Pro keys, native background workers, and dual-USB redundancy kits.
-8. **[Top Melodic & Peak-Time Techno Tracks: Harmonic Mixing Analysis](https://beatport-downloader.com/blog/top-melodic-techno-tracks-dj-playlist-batch-download)**: Energy laddering analysis across the season's top 30 techno anthems.
+1. **USB 1 (Master Drive):** Primary drive connected to CDJ Deck 1 with complete Rekordbox database, hot cues, and memory loops.
+2. **USB 2 (Link Mirror):** Exact clone connected to CDJ Deck 2 to protect against Pro DJ Link ethernet dropouts.
+3. **USB 3 (Emergency Raw):** Standalone drive formatted in FAT32/MBR containing raw unanalyzed FLAC files sorted by genre.
 
 ---
 
-## Python CLI Quickstart Client
+## 📚 Technical DJ Guides & Tutorials
 
-For developers and automated workstations, you can query and batch resolve Beatport releases using the included lightweight client:
+Read full-length technical breakdowns and acoustic engineering guides on our official blog:
 
-```python
-import urllib.request
-import json
-
-def fetch_beatport_release(release_id: int):
-    url = f"https://beatport-downloader.com/api/tracks/{release_id}"
-    req = urllib.request.Request(url, headers={"User-Agent": "BeatportDownloaderCLI/2.0"})
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode("utf-8"))
-
-# Example: Inspect track metadata
-track = fetch_beatport_release(18293041)
-print(f"Title: {track.get('title')} ({track.get('mix_name')})")
-print(f"Artist: {track.get('artist')}")
-print(f"Key: {track.get('key_name')} -> Camelot: {track.get('camelot_key')}")
-print(f"BPM: {track.get('bpm')}")
-```
+- [How to Import Beatport Tracks into Rekordbox with Intact Camelot Keys](https://beatport-downloader.com/blog/how-to-import-beatport-tracks-rekordbox-serato-camelot-keys)
+- [FLAC vs. MP3 320kbps vs. WAV on Club Sound Systems (Definitive Guide)](https://beatport-downloader.com/blog/flac-vs-mp3-320kbps-wav-club-soundsystems-guide)
+- [How to Format and Prepare USB Drives for Pioneer CDJs](https://beatport-downloader.com/blog/how-to-format-prepare-usb-for-pioneer-cdj-rekordbox)
+- [How to Batch Download Beatport Playlists and Charts in Lossless FLAC](https://beatport-downloader.com/blog/complete-step-by-step-guide-batch-download-beatport-playlists-flac)
+- [How to Fix Missing Camelot Keys and BPM Tags in Rekordbox](https://beatport-downloader.com/blog/how-to-fix-rekordbox-missing-camelot-keys-bpm-beatport-downloads)
+- [The Touring DJ Workstation Setup: Unlimited FLAC & Dual USB Sync](https://beatport-downloader.com/blog/premium-dj-workstation-setup-unlimited-flac-downloads-offline-cdj-prep)
+- [Convert Spotify, Apple Music & Deezer Playlists to Beatport](https://beatport-downloader.com/blog/convert-spotify-apple-music-deezer-playlist-to-beatport)
+- [Top Melodic & Peak-Time Techno Tracks: Harmonic Mixing Analysis](https://beatport-downloader.com/blog/top-melodic-techno-tracks-dj-playlist-batch-download)
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## 🌟 Start Downloading Now
 
-### What formats are supported?
-Beatport Downloader PRO exports uncompressed 24-bit / 44.1 kHz FLAC, 16-bit WAV, and 320kbps CBR MP3 files with complete ID3v2.3 tags and high-resolution cover artwork.
+Upgrade your music management workflow with bit-perfect studio master audio and automated Camelot tagging.
 
-### Is an installation required?
-No. The web app operates directly in modern browsers (Chrome, Edge, Safari, Firefox) using client-side Web Streams and WebAssembly. An optional background companion is available for automated directory syncing.
-
-### How does the free demo work?
-The free demo gives you 5 free 24-bit FLAC or MP3 track downloads every 24 hours with full Camelot key and BPM metadata. Upgrading to a lifetime Pro key unlocks unlimited batch downloads and VIP server queues.
+👉 **[Open Beatport Downloader PRO](https://beatport-downloader.com)**  
+👉 **[Get Lifetime Pro License (€9.99)](https://beatport-downloader.com/checkout?plan=ultra)**
 
 ---
 
-## License
+## License & Notice
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-Not affiliated with Beatport LLC. All product names, logos, and brands are property of their respective owners.
+Documentation and landing materials distributed under the MIT License.  
+Not affiliated with Beatport LLC. Beatport, Pioneer DJ, Rekordbox, Serato, and Traktor are registered trademarks of their respective owners.
