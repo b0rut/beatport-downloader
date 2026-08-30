@@ -108,17 +108,6 @@ Workstation Workflow:
 
 ---
 
-## 💻 Standalone Background Desktop Worker (Optional)
-
-Accelerate queue concurrency with native background workers bundled with FFmpeg:
-* **Windows**: [Download BeatportWorker.exe](https://beatport-downloader.com/downloads/BeatportWorker.exe)
-* **macOS**: [Download BeatportWorker-macOS.dmg](https://beatport-downloader.com/downloads/BeatportWorker-macOS.dmg)
-* **Linux**: [Download BeatportWorker-Linux.AppImage](https://beatport-downloader.com/downloads/BeatportWorker-Linux.AppImage)
-
-Pair in seconds under **Settings -> Worker** inside the web app.
-
----
-
 ## 🏷️ Frequently Asked Questions (FAQ)
 
 * **Is there a free tier for daily downloading and DJ preparation?**  
