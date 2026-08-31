@@ -1,125 +1,121 @@
 <div align="center">
   <a href="https://beatport-downloader.com/app">
-    <img src="/favicon.svg" width="76" height="76" alt="Beatport Downloader PRO" />
+    <img src="https://beatport-downloader.com/favicon.svg" width="80" height="80" alt="Beatport Downloader PRO" />
   </a>
-  <h1 align="center">Beatport Downloader PRO Web Application</h1>
-  <p align="center"><strong>Free In-Browser Lossless Music Downloader & Batch Curation Suite for DJs</strong></p>
-  <p align="center"><em>Download Studio Master 24-bit FLAC / WAV & High-Quality Audio Directly in Your Browser · 100% Free Daily Tier</em></p>
+  <h1 align="center">🎧 Beatport Downloader PRO</h1>
+  <p align="center"><strong>The Ultimate Studio-Grade Music Downloader & Curation Suite for Professional DJs and Electronic Music Producers</strong></p>
+  <p align="center"><em>Download 24-bit Lossless FLAC, WAV, AIFF & 320 kbps MP3 with Pioneer CDJ / Rekordbox ID3v2.3 Ready Metadata</em></p>
 
   <p align="center">
-    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Web_App-Launch_Free-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web App" /></a>
+    <a href="https://beatport-downloader.com/app"><img src="https://img.shields.io/badge/Web_App-Launch_Live-FF5A1F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web App" /></a>
     <a href="https://beatport-downloader.com"><img src="https://img.shields.io/badge/Official_Website-beatport--downloader.com-00C853?style=for-the-badge&logo=safari&logoColor=white" alt="Website" /></a>
     <a href="https://discord.gg/v6K34tQf"><img src="https://img.shields.io/badge/Community-Discord_VIP-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Daily_Free_Downloads-50_Tracks%2FDay-brightgreen" alt="Daily Free Downloads" />
-    <img src="https://img.shields.io/badge/Audio_Quality-24--bit_FLAC_%7C_WAV_%7C_AAC-orange" alt="Audio Quality" />
-    <img src="https://img.shields.io/badge/Browser_Ready-Chrome_%7C_Edge_%7C_Brave-blue" alt="Browser Support" />
+    <img src="https://img.shields.io/badge/Release-v2.4.0-FF5A1F?style=flat-square&logo=github" alt="Release" />
+    <img src="https://img.shields.io/badge/Daily_Free_Downloads-50_Tracks%20%2B%2010%20Lossless-brightgreen?style=flat-square" alt="Daily Free Tier" />
+    <img src="https://img.shields.io/badge/Audio_Quality-24--bit_FLAC_%7C_WAV_%7C_AIFF_%7C_320k_MP3-orange?style=flat-square" alt="Audio Quality" />
+    <img src="https://img.shields.io/badge/Hardware-Pioneer_CDJ_%26_Rekordbox-blue?style=flat-square" alt="Hardware Ready" />
   </p>
 
   <br />
-  <img src="docs/screenshots/app_home.png" alt="Beatport Downloader PRO Web App Interface" width="1000" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-top: 10px; margin-bottom: 20px;" />
+  <img src="docs/screenshots/app_home.png" alt="Beatport Downloader PRO Web Application Interface" width="1000" style="border-radius: 12px; box-shadow: 0 12px 36px rgba(0,0,0,0.6); margin-top: 10px; margin-bottom: 20px;" />
 </div>
 
 ---
 
-## ⚡ The Web Application (`beatport-downloader.com/app`)
+## ⚡ What is Beatport Downloader PRO?
 
-**Beatport Downloader PRO** is a zero-install, in-browser DJ preparation workstation and batch music downloader. Running directly in Google Chrome, Brave, Microsoft Edge, and Firefox, it turns your browser into a full-featured electronic music discovery and library curation suite.
+**Beatport Downloader PRO** is the next-generation music acquisition, conversion, and crate-management suite engineered specifically for touring DJs, festival headliners, and club residents. Built from the ground up for maximum sonic fidelity, blazing batch speed, and turnkey Pioneer CDJ / Rekordbox compatibility, it eliminates tedious manual tagging, mismatched waveforms, and low-quality rips forever.
 
-👉 **[Launch Live Web Application](https://beatport-downloader.com/app)**
+Whether you need **Studio Master 24-bit FLAC / WAV / AIFF**, **320 kbps Club CBR MP3** with CDJ-compatible ID3v2.3 tags, or lightweight AAC curation streams, Beatport Downloader PRO delivers pristine studio audio with 100% verified Camelot keys, exact BPM grids, and high-resolution embedded album artwork out-of-the-box.
+
+👉 **[Launch Live Web Application (No Install Required)](https://beatport-downloader.com/app)**
 
 ---
 
-## 📸 Core Web App Features & Workstation Tour
+## ✨ Key Features & Benefits
 
-### 1. 🔍 Live Track Search & Audio Waveform Preview
-Search by artist, track title, record label, or catalog number. Audition tracks with instantaneous, high-precision waveform audio scrubbing, and view real-time **Camelot musical key tags (e.g. 8A, 11B)** and **exact BPM** directly in the search grid.
+- 💎 **True Studio-Grade Audio Options**: Download in uncompressed **24-bit / 44.1 kHz FLAC**, **24-bit WAV (PCM)**, **24-bit AIFF**, or **320 kbps CBR MP3** encoded with `libmp3lame` and high-frequency cutoff protection.
+- 🎛️ **Pioneer CDJ & Rekordbox Ready**: Automatic ID3v2.3 tagging, Camelot harmonic key detection (e.g. `8A / 11B`), exact BPM labeling, and embedded 1400×1400 HD front artwork ensure instant USB plug-and-play on CDJ-3000, CDJ-2000NXS2, and standalone DJ rigs.
+- 🔄 **Universal Spotify & Apple Music Playlist Ingestion**: Simply paste playlist URLs to automatically resolve and pull official extended DJ club masters directly into your download crate.
+- ⚡ **Turbo Batch & Crate Downloads**: One-click acquisition of entire top 100 genre charts, curated DJ sets, and full artist discographies with concurrent multi-threaded worker pipelines.
+- 🏷️ **Smart Customizable Naming Templates**: Organize your DJ library automatically with dynamic templates such as `[Key - BPM] Artist - Title (Mix)` or `Artist - Title [Key - BPM]`.
+- 🎵 **Integrated DJ Deck & Waveform Player**: Audition tracks with smooth real-time waveform scrubbing, high-precision key meters, and instant in-app preview before queuing.
+- 📁 **Direct Local Folder Writes**: Saves directly to your designated external USB or music directory (`~/Music/DJ Crates`) via the modern Web File System Access API.
+
+---
+
+## 🚀 Plan Tiers & Formats
+
+| Plan Tier | Price | Daily Downloads | Audio Formats | Target Use Case |
+|---|---|---|---|---|
+| **Free Demo** | **€0.00** | **50 total / 24h**<br>*(10 Free 24-bit Lossless)* | `192 kbps MP3` · `128 kbps AAC`<br>• *10 Free 24-bit FLAC / WAV daily* | Everyday Track Curation & Casual Listening |
+| **High Quality (PRO)** | **€7.99** | **1,250 total / 24h**<br>*(25 Daily 24-bit Lossless)* | `320 kbps MP3` (CBR CDJ Master)<br>`320 kbps AAC` · `256k AAC` · `192k MP3`<br>• *25 Daily 24-bit FLAC / WAV* | Club DJs & Mobile Gig Performance |
+| **Ultra Studio PRO** | **€13.99** | **Unlimited**<br>*(Zero Limits)* | `24-bit FLAC` · `24-bit WAV` · `24-bit AIFF`<br>`320 kbps MP3` · `320 kbps AAC` | Touring Headliners & Studio Mastering |
+
+---
+
+## 📸 Workstation Tour
+
 <div align="center">
-  <img src="docs/screenshots/app_search.png" alt="Beatport Downloader PRO Search Tracks & Waveform Player View" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
+  <h3>🔍 Live Track Search & Audio Waveform Preview</h3>
+  <img src="docs/screenshots/app_search.png" alt="Search Tracks & Waveform Player View" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
+
+  <h3>🔄 Universal Playlist Converter (Spotify / Apple Music)</h3>
+  <img src="docs/screenshots/app_playlist_convert.png" alt="Universal Playlist Converter" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
+
+  <h3>📋 Playlists Hub & DJ Crates Manager</h3>
+  <img src="docs/screenshots/app_playlists.png" alt="Playlists Hub and Crate Manager" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
+
+  <h3>⬇️ Multi-Threaded Batch Downloads Manager</h3>
+  <img src="docs/screenshots/app_downloads.png" alt="Active Batch Downloads Manager" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
 </div>
 
 ---
 
-### 2. 🔄 Universal Playlist Converter (Spotify & Apple Music Ingestion)
-Paste public playlist URLs from **Spotify**, **Apple Music**, or **Deezer**. The engine automatically matches streaming track metadata against verified Beatport catalog masters and loads extended DJ club mixes into your active download crate.
-<div align="center">
-  <img src="docs/screenshots/app_playlist_convert.png" alt="Beatport Downloader PRO Universal Spotify & Apple Music Playlist Converter" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
-</div>
+## 🛠️ Quick Start
 
----
+### 🌐 Option 1: In-Browser Web App (Recommended)
+1. Open **[beatport-downloader.com/app](https://beatport-downloader.com/app)** in Chrome, Brave, Edge, or Firefox.
+2. Sign in or create a free account to instantly unlock your **50 daily free downloads + 10 lossless FLAC tracks**.
+3. Choose your preferred format from the header **Quick Access Menu** (`FLAC`, `WAV`, `AIFF`, `320k MP3`, etc.).
+4. Search or paste a playlist and click **Download**.
 
-### 3. 📋 Playlists Hub & DJ Crates Management
-Organize converted Spotify crates, Beatport Top 100 charts, and custom DJ playlists. Inspect full tracklists with high-res artwork, Camelot keys, and BPM, and initiate 1-click **Download All in FLAC** batch runs.
-<div align="center">
-  <img src="docs/screenshots/app_playlists.png" alt="Beatport Downloader PRO Playlists Hub and Crate Manager" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
-</div>
+### 💻 Option 2: Command-Line Interface (CLI)
+```bash
+# Clone the repository
+git clone https://github.com/b0rut/beatport-downloader.git
+cd beatport-downloader
 
----
+# Install Python dependencies
+pip install -r requirements.txt
 
-### 4. ⬇️ Multi-Threaded Batch Queue & Downloads Manager
-Monitor live download progress, transfer speeds, and active file generation. The built-in worker engine concurrency downloads multiple tracks simultaneously and writes them directly into your local destination folder.
-<div align="center">
-  <img src="docs/screenshots/app_downloads.png" alt="Beatport Downloader PRO Active Batch Downloads and Queue Manager" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
-</div>
-
----
-
-### 5. ⚙️ Audio Preferences & Destination Folder Settings
-Configure default download containers (**Studio Master 24-bit FLAC**, **16-bit WAV**, or **lightweight 256/320kbps AAC**), select your local music directory with the modern File System Access API, or pair a local background desktop worker for hardware acceleration.
-<div align="center">
-  <img src="docs/screenshots/app_settings.png" alt="Beatport Downloader PRO Settings and Audio Quality Configuration" width="900" style="border-radius: 10px; margin-bottom: 24px;" />
-</div>
-
----
-
-## 🎁 100% Free Daily Downloading Tier
-
-* **✨ Daily Free Quota**: **50 free downloads every 24 hours** in 128 kbps AAC + **5 free Studio Master 24-bit FLAC downloads** every 24 hours. Zero credit card or subscription required.
-* **🎧 Full Pro Metadata Injection**: All free downloads include Camelot harmonic keys, BPM, artist, title, genre, and embedded 1400×1400 HD artwork for Pioneer Rekordbox, Serato DJ Pro, Traktor Pro, and Engine DJ.
-* **📁 Direct Local Folder Writes**: Saves directly to your hard drive (`~/Music/DJ Crates` or custom folder) without browser download bar spam.
-
----
-
-## 🚀 How to Use the Web App
-
-```
-Workstation Workflow:
-┌──────────────────────────────────────────────────────────┐
-│ 1. Open https://beatport-downloader.com/app              │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│ 2. Select Local Download Folder (File System Access)     │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│ 3. Search Tracks or Paste Beatport / Spotify Playlists   │
-└────────────────────────────┬─────────────────────────────┘
-                             │
-                             ▼
-┌──────────────────────────────────────────────────────────┐
-│ 4. Click Download / Batch Queue -> Direct Lossless FLAC  │
-└──────────────────────────────────────────────────────────┘
+# Launch interactive CLI suite
+python -m beatport_cli --help
 ```
 
 ---
 
-## 🏷️ Frequently Asked Questions (FAQ)
+## 🎯 Ideal For
 
-* **Is there a free tier for daily downloading and DJ preparation?**  
-  Yes! Every registered user receives 50 free downloads/24h and 5 free Studio Master 24-bit FLAC downloads daily.
-* **Are downloaded tracks compatible with Pioneer CDJs & Rekordbox?**  
-  Yes, all downloads feature standardized ID3v2 tags with Camelot keys, exact BPM, and artwork formatted for Pioneer Rekordbox, Serato DJ Pro, Traktor Pro, and Denon Engine DJ.
-* **Do I need to install any browser extensions or plugins?**  
-  No. The app utilizes standard Web Audio API and File System Access API natively supported in Chrome, Edge, Brave, Opera, and Firefox.
+- 🎧 **Club & Festival DJs**: Prepare bulletproof USB drives with harmonic Camelot keys and lossless audio for peak-time mainstage sound systems.
+- 📻 **Radio & Podcast Hosts**: Download complete high-bitrate crates in seconds for weekly radio mixes.
+- 🎚️ **Producers & Remixer Teams**: Access clean reference tracks and high-definition stems in uncompressed 24-bit quality.
+
+---
+
+## 🌟 Support & Community
+
+- 🌐 **Official Website**: [https://beatport-downloader.com](https://beatport-downloader.com)
+- 🚀 **Live Web App**: [https://beatport-downloader.com/app](https://beatport-downloader.com/app)
+- 📖 **DJ Guides & Tutorials**: [https://beatport-downloader.com/blog](https://beatport-downloader.com/blog)
+- 💬 **Discord VIP Community**: [Join our Discord](https://discord.gg/v6K34tQf)
+- ⭐ **Star this repository** if Beatport Downloader PRO powers your DJ sets!
 
 ---
 
 <div align="center">
-  <p>Official Website: <a href="https://beatport-downloader.com">beatport-downloader.com</a></p>
-  <p><em>Built with precision for electronic music selectors and studio professionals worldwide.</em></p>
+  <sub>Built with ❤️ for the global electronic music community. Pioneer DJ, Rekordbox, and Beatport are trademarks of their respective owners.</sub>
 </div>
